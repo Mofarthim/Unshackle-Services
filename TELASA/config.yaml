@@ -1,0 +1,10 @@
+endpoints:
+    auth: "https://cognito-idp.ap-northeast-1.amazonaws.com/"
+    base: "https://www.telasa.jp/videos/{id}"
+    series: "https://api-videopass.kddi-video.com/v3/series/{id}"
+    episode: "https://api-videopass.kddi-video.com/v3/batch/query"
+    graphql: "https://playback.kddi-video.com/graphql"
+license:
+    fairplay: "https://license.kddi-video.com/"
+    playready: "https://license.kddi-video.com/rightsmanager.asmx"
+    widevine: "https://license.kddi-video.com/"

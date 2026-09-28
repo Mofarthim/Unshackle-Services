@@ -1,0 +1,12 @@
+endpoints:
+  guest_login: 'https://api.p-c3-e.abema-tv.com/v1/users'
+  login: 'https://api.p-c3-e.abema-tv.com/v1/auth/user/email'
+  media_token: 'https://api.p-c3-e.abema-tv.com/v1/media/token?osName=pc&osVersion=1.0.0'
+  dtid: 'https://api.p-c3-e.abema-tv.com/v1/media/deviceTypeId?os=Windows&osVersion=10&drm=Widevine'
+  series_info: 'https://api.p-c3-e.abema-tv.com/v1/video/series/{id}?includeSlot=true'
+  series_programs: 'https://api.p-c3-e.abema-tv.com/v1/video/series/{series_id}/programs?seasonId={season_id}&order=seq&limit=420'
+  program_info: 'https://api.p-c3-e.abema-tv.com/v1/video/programs/{id}?division=0&include=tvod'
+  slot_info: 'https://api.p-c3-e.abema-tv.com/v1/media/slots/{id}?include=payperview'
+  manifest_slot: 'https://ds-vod-abematv.akamaized.net/slot/{id}/manifest.mpd?t={token}&enc=clear&dt=pc_edge&ccf=0&ut=1&sw=0'
+  manifest_program: 'https://ds-vod-abematv.akamaized.net/program/{id}/manifest.mpd?t={token}&enc=clear&dt=pc_edge&ccf=0&dtid={dtid}&ut=1&sw=0'
+  license: 'https://license.p-c3-e.abema-tv.com/abematv-dash?t={token}&cid={cid}&ct={ct}'
