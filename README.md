@@ -7,7 +7,7 @@ Add folder to `unshackle.yaml`:
 
 ```
 directories:
-    services: "path/to/services"
+    services: "pathto/services"
 ```
 See help text for each service:
 
